@@ -1,6 +1,7 @@
 /* Google Font Montserrat, Roboto & Bebas Neue Embeded */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* Universal Styles Start */
 * {
     margin: 0;
     padding: 0;
@@ -16,9 +17,15 @@
     --text-2: #FABE4C;
 }
 
+.container {
+    max-width: 1440px;
+    width: 75%;
+    margin-inline: auto;
+}
+
 .heading {
     color: var(--text-2);
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue", sans-serif;
     font-size: 5rem;
 }
 
@@ -28,8 +35,17 @@
 
 .title {
     color: var(--secondary-color);
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue", sans-serif;
     font-size: 3rem;
+}
+
+.sub-title {
+    color: #363958;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .description {
@@ -53,3 +69,44 @@ a {
     text-decoration: none;
     color: var(--secondary-color);
 }
+/* Universal Styles End */
+
+/* Header Nav Section Styles Start */
+header {
+    background-color: var(--bg-color);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 1rem;
+}
+
+nav .logo {
+    width: 50%;
+}
+
+nav .logo img {
+    min-width: 10rem;
+    width: 50%;
+    vertical-align: middle;
+}
+
+nav .nav-links ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+    
+}
+
+nav .nav-links ul a {
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+nav .nav-links > i {
+    display: none;
+}
+/* Header Nav Section Styles End */

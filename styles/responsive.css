@@ -1,0 +1,12 @@
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+    nav .nav-links ul {
+        display: none;
+    }
+
+    nav .nav-links > i {
+        display: block;
+    }
+}
