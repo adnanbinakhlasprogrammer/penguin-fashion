@@ -9,4 +9,12 @@
     nav .nav-links > i {
         display: block;
     }
+
+    .navbar > img {
+        display: none;
+    }
+
+    .banner-container {
+        flex-direction: column;
+    }
 }

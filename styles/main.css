@@ -109,4 +109,34 @@ nav .nav-links ul a {
 nav .nav-links > i {
     display: none;
 }
+
+.navbar {
+    position: relative;    
+}
+.navbar > img {
+    position: absolute;
+    top: -5%;
+    left: 40%;
+}
 /* Header Nav Section Styles End */
+
+/* Banner Section Styles Start */
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-container .banner-content {
+    max-width: 26rem;
+}
+
+.banner-container .banner-content p {
+    margin: 0.5rem 0 1.25rem 0;
+}
+
+.banner-container .banner-image img{
+    vertical-align: middle;
+    width: 100%;
+}
+/* Banner Section Styles End */
