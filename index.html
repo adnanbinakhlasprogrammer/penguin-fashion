@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +10,13 @@
     <!-- Responsive Stylesheet Linked -->
     <link rel="stylesheet" href="./styles/responsive.css">
     <!-- Font Awesome CDN Linked -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
+    <!-- Header Section Start -->
     <header>
         <!-- Navbar Section Start -->
         <!-- nav.container>.logo>img^.nav-links>ul>li*4>a[href="#"] -->
@@ -31,23 +36,138 @@
         <!-- Navbar Section End -->
 
         <!-- Banner Section Start -->
+
         <!-- section.banner-container.container>.banner-content>h1.heading+p.description+btn.btn{Buy Now}^.banner-image>img -->
+
         <section class="banner-container container">
             <div class="banner-content">
                 <h1 class="heading">Be the Penguins <span>of Winter</span></h1>
-                <p class="description">Embrace the cool elegance of winter with our latest collection. Discover chic, comfortable styles that make you stand out like a penguin in the snow. Shop now to update your wardrobe with the season’s must-haves.</p>
-                <button class="btn">Buy Now</button>
+                <p class="description">Embrace the cool elegance of winter with our latest collection. Discover chic,
+                    comfortable styles that make you stand out like a penguin in the snow. Shop now to update your
+                    wardrobe with the season’s must-haves.</p>
+                <button class="btn"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
             </div>
             <div class="banner-image"><img src="./images/model.png" alt="Model_Image"></div>
         </section>
-
         <!-- Banner Section End -->
     </header>
+    <!-- Header Section End -->
+
+    <!-- Main Section Start -->
     <main>
+        <!-- W.Jacket Section Start -->
 
+        <!-- section#jacket.container>h2.title+.jackets-cards-container>.card*3>.img-wrapper>img^.card-content>.content>h3{Yellow Coat Jacket}+p{Lorem Ipsum is simply dummy text of the printing and typesetting industry.}^.price>span{\$234}+btn.btn{<i class="fa-solid fa-cart-shopping"></i> Buy Now} -->
+
+        <section id="jacket" class="container">
+            <h2 class="title">Women Jacket</h2>
+            <div class="jackets-cards-container">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="./images/jacket-1.png" alt="Yellow_Coat_Jacket">
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h3>Yellow Coat Jacket</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="price">
+                            <span>$234</span>
+                            <button class="btn"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="./images/jacket-2.png" alt="Ladies_Jacket">
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h3>Ladies Jacket</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="price">
+                            <span>$234</span>
+                            <button class="btn"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="./images/jacket-3.png" alt="Women_Leather_Jacket">
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h3>Women Leather Jacket</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="price">
+                            <span>$234</span>
+                            <button class="btn"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- W.Jacket Section End -->
+
+        <!-- M.Jacket Section Start -->
+        <section id="jacket" class="container">
+            <h2 class="title">Men Jacket</h2>
+            <div class="jackets-cards-container">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="./images/jacket-4.png" alt="Snowboard_Jacket_Men">
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h3>Snowboard Jacket Mens</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="price">
+                            <span>$234</span>
+                            <button class="btn"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="./images/jacket-5.png" alt="Man_Leather_Jacket">
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h3>Man Leather Jackets</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="price">
+                            <span>$234</span>
+                            <button class="btn"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="./images/jacket-6.png" alt="Man_Casual_Jacket">
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h3>Man Casual Jackets</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="price">
+                            <span>$234</span>
+                            <button class="btn"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- M.Jacket Section End -->
     </main>
+    <!-- Main Section End -->
     <footer>
-
+        
     </footer>
 </body>
+
 </html>

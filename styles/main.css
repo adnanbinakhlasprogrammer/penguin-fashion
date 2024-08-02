@@ -69,6 +69,11 @@ a {
     text-decoration: none;
     color: var(--secondary-color);
 }
+
+section {
+    margin-block: 6.25rem;
+}
+
 /* Universal Styles End */
 
 /* Header Nav Section Styles Start */
@@ -76,7 +81,7 @@ header {
     background-color: var(--bg-color);
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,12 +98,12 @@ nav .logo img {
     vertical-align: middle;
 }
 
-nav .nav-links ul{
+nav .nav-links ul {
     list-style: none;
     display: flex;
     align-items: center;
     gap: 3.5rem;
-    
+
 }
 
 nav .nav-links ul a {
@@ -106,18 +111,20 @@ nav .nav-links ul a {
     font-family: "Roboto", sans-serif;
 }
 
-nav .nav-links > i {
+nav .nav-links>i {
     display: none;
 }
 
 .navbar {
-    position: relative;    
+    position: relative;
 }
-.navbar > img {
+
+.navbar>img {
     position: absolute;
     top: -5%;
     left: 40%;
 }
+
 /* Header Nav Section Styles End */
 
 /* Banner Section Styles Start */
@@ -125,6 +132,7 @@ nav .nav-links > i {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-block: 0;
 }
 
 .banner-container .banner-content {
@@ -135,8 +143,73 @@ nav .nav-links > i {
     margin: 0.5rem 0 1.25rem 0;
 }
 
-.banner-container .banner-image img{
+.banner-container .banner-image img {
     vertical-align: middle;
     width: 100%;
 }
+
 /* Banner Section Styles End */
+
+/* Women Jacket Section Styles Start */
+.jackets-cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.25rem;
+    margin-top: 1.25rem;
+}
+
+.jackets-cards-container .card {
+    border-radius: 20px;
+    background-color: var(--white-color);
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
+    padding: 1.38rem;
+}
+
+.jackets-cards-container .card .img-wrapper {
+    border-radius: 20px;
+    background-color: #F1F1F1;
+    padding: 1.38rem;
+    margin-bottom: 1rem;
+}
+
+.jackets-cards-container .card img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.jackets-cards-container .card h3 {
+    color: var(--text-1);
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.jackets-cards-container .card p {
+    color: var(--text-1);
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+
+.jackets-cards-container .card span {
+    color: var(--text-2);
+    font-family: "Roboto", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 900;
+}
+
+.jackets-cards-container .card .content {
+    margin-bottom: 0.75rem;
+}
+
+.jackets-cards-container .card .content h3 {
+    margin-bottom: 0.8rem;
+}
+
+.jackets-cards-container .card .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Women Jacket Section Styles End */
