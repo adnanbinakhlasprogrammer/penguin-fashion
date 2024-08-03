@@ -14,11 +14,28 @@
         display: none;
     }
 
-    .banner-container {
+    .banner-container,
+    #service .cards-container .card {
         flex-direction: column;
+    }
+
+    #service .cards-container .card:nth-child(2) .img-wrapper {
+        height: 70%;
+    }
+
+    #service .cards-container .card:nth-child(2) .img-wrapper img {
+        height: 100%;
     }
 
     .jackets-cards-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+    
+    #service .service-content{
+        flex-direction: column-reverse;
+    }
+
+    #service .cards-container {
+        width: 100%;
     }
 }

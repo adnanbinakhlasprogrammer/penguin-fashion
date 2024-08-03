@@ -213,3 +213,58 @@ nav .nav-links>i {
 }
 
 /* Women Jacket Section Styles End */
+
+/* Service Section Styles Start */
+#service .service-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+#service .cards-container {
+    width: 80%;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1.25rem;
+}
+
+#service .cards-container .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.125rem;
+    border-radius: 1.25rem;
+    background: var(--white-color);
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
+    max-width: 28rem;
+    padding: 1.5rem 2rem;
+}
+
+#service .cards-container .card h3 {
+    color: var(--text-1);
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.87rem;
+}
+
+#service .cards-container .card p {
+    color: var(--text-1);
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+#service img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+#service .card img {
+    width: 80px;
+    vertical-align: middle;
+}
+
+/* Service Section Styles End */
